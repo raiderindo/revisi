@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moro Joyo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Header -->
+    <header class="bg-white shadow">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6">
+            <div class="text-2xl font-bold text-green-600">Moro Joyo</div>
+            <nav class="space-x-4">
+                <a href="#" class="text-gray-700">Halaman</a>
+                <a href="#" class="text-green-600">Produk</a>
+                <a href="#" class="text-gray-700">Detail Produk</a>
+                <a href="#" class="text-gray-700">Keranjang</a>
+            </nav>
+            <div class="space-x-4">
+                <i class="fas fa-shopping-cart text-green-600"></i>
+                <i class="fas fa-user text-green-600"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto mt-6">
+        <!-- Banner -->
+        <div class="relative">
+            <img src="nastar.jpg" alt="Banner image of various products" class="w-full h-40 object-cover" width="1200" height="160">
+<div class="absolute inset-0 flex items-center justify-center">
+    <h1 class="text-white text-4xl font-bold">PRODUK</h1>
+</div>
+
+            </div>
+        </div>
+
+        <!-- Categories and Products -->
+        <div class="mt-6 flex">
+            <!-- Categories -->
+            <div class="w-1/4 p-4 bg-white shadow">
+                <h2 class="text-lg font-bold mb-4">Kategori</h2>
+                <ul>
+                    <li class="mb-2">
+                        <a href="#" class="text-gray-700">Makanan Ringan</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Products -->
+            <div class="w-3/4 p-4 bg-white shadow ml-4">
+                <div class="grid grid-cols-3 gap-4">
+                    <!-- Product 1 -->
+                    <div class="text-center">
+                        <img src="keju.jpg" alt="Image of Kue Kastengel" class="w-full h-48 object-cover mb-2" width="200" height="200">
+                        <h3 class="text-lg font-bold">Kue Kastengel</h3>
+                    </div>
+                    <!-- Product 2 -->
+                    <div class="text-center">
+                        <img src="nastar.jpg" alt="Image of Kue Nastar" class="w-full h-48 object-cover mb-2" width="200" height="200">
+                        <h3 class="text-lg font-bold">Kue Nastar</h3>
+                    </div>
+                    <!-- Product 3 -->
+                    <div class="text-center">
+                        <img src="nastar.jpg" alt="Image of Krupuk Seblak" class="w-full h-48 object-cover mb-2" width="200" height="200">
+                        <h3 class="text-lg font-bold">Krupuk Seblak</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product Details -->
+        <div class="mt-6 p-4 text-white flex" style="background-color: #83bb00;">
+            <img src="keju.jpg" alt="Image of Kue Kastengel" class="w-48 h-48 object-cover mr-4" width="200" height="200">
+            <div>
+                <h2 class="text-2xl font-bold">Kue Kastengel</h2>
+                <p class="text-xl">Rp65.000</p>
+                <div class="mt-4">
+                    <label for="quantity" class="block mb-2">Jumlah</label>
+                    <input id="quantity" name="quantity" type="number" class="w-16 p-2 text-black" value="1">
+                </div>
+                <button class="mt-4 bg-white text-green-600 px-4 py-2 font-bold">CEKOUT</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white mt-6">
+        <div class="container mx-auto py-6 px-4 grid grid-cols-3 gap-4">
+            <!-- Company Info -->
+            <div>
+                <h3 class="text-lg font-bold text-green-600">Moro Joyo</h3>
+                <p>Alamat: Jl. Garuda, Kec. Tajinan, Kab. Malang</p>
+                <p>Email: raiderind@gmail.com</p>
+                <p>Telepon: +62 856-1437-956</p>
+            </div>
+            <!-- Store Info -->
+            <div>
+                <h3 class="text-lg font-bold">Info Toko</h3>
+                <ul>
+                    <li><a href="#" class="text-gray-400">Info Toko</a></li>
+                    <li><a href="#" class="text-gray-400">Tentang Kami</a></li>
+                    <li><a href="#" class="text-gray-400">Hubungi Kami</a></li>
+                    <li><a href="#" class="text-gray-400">Kebijakan</a></li>
+                    <li><a href="#" class="text-gray-400">FAQ & Bantuan</a></li>
+                </ul>
+            </div>
+            <!-- Account Info -->
+            <div>
+                <h3 class="text-lg font-bold">Account</h3>
+                <ul>
+                    <li><a href="#" class="text-gray-400">Akun</a></li>
+                    <li><a href="#" class="text-gray-400">Akun Saya</a></li>
+                    <li><a href="#" class="text-gray-400">Kereta Belanja</a></li>
+                    <li><a href="#" class="text-gray-400">Pesanan</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

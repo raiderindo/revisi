@@ -1,0 +1,337 @@
+.frame {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .frame .overlap-wrapper {
+    width: 1440px;
+    height: 1186px;
+  }
+  
+  .frame .overlap {
+    position: relative;
+    height: 1186px;
+  }
+  
+  .frame .desktop {
+    position: absolute;
+    width: 1440px;
+    height: 1186px;
+    top: 0;
+    left: 0;
+    background-color: #ededed;
+  }
+  
+  .frame .overlap-group {
+    position: relative;
+    height: 177px;
+    top: 937px;
+    background-color: #d9d9d9;
+  }
+  
+  .frame .rectangle {
+    position: relative;
+    width: 1358px;
+    height: 77px;
+    top: 50px;
+    left: 41px;
+    background-color: #83bb00;
+  }
+  
+  .frame .div {
+    position: absolute;
+    width: 1440px;
+    height: 159px;
+    top: 0;
+    left: 0;
+    background-color: #d9d9d9;
+  }
+  
+  .frame .jl-garuda-rt {
+    position: absolute;
+    top: 77px;
+    left: 115px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .vector {
+    position: absolute;
+    width: 18px;
+    height: 32px;
+    top: 22px;
+    left: 29px;
+  }
+  
+  .frame .text-wrapper {
+    position: absolute;
+    top: 29px;
+    left: 115px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .img {
+    position: absolute;
+    width: 24px;
+    height: 30px;
+    top: 39px;
+    left: 75px;
+  }
+  
+  .frame .rectangle-2 {
+    position: absolute;
+    width: 1440px;
+    height: 287px;
+    top: 166px;
+    left: 0;
+    background-color: #d9d9d9;
+  }
+  
+  .frame .rectangle-3 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 212px;
+    left: 47px;
+    object-fit: cover;
+  }
+  
+  .frame .text-wrapper-2 {
+    position: absolute;
+    top: 232px;
+    left: 278px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .text-wrapper-3 {
+    position: absolute;
+    top: 301px;
+    left: 278px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .text-wrapper-4 {
+    position: absolute;
+    top: 271px;
+    left: 278px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #424242;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .rectangle-4 {
+    position: absolute;
+    width: 1440px;
+    height: 203px;
+    top: 464px;
+    left: 0;
+    background-color: #d9d9d9;
+  }
+  
+  .frame .jl-garuda-rt-rw {
+    position: absolute;
+    top: 341px;
+    left: 278px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #424242;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .text-wrapper-5 {
+    position: absolute;
+    top: 488px;
+    left: 35px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .text-wrapper-6 {
+    position: absolute;
+    top: 541px;
+    left: 35px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .text-wrapper-7 {
+    position: absolute;
+    top: 600px;
+    left: 35px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .text-wrapper-8 {
+    top: 486px;
+    position: absolute;
+    left: 1242px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .text-wrapper-9 {
+    top: 542px;
+    position: absolute;
+    left: 1242px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .text-wrapper-10 {
+    top: 598px;
+    position: absolute;
+    left: 1242px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .rectangle-5 {
+    position: absolute;
+    width: 1440px;
+    height: 211px;
+    top: 682px;
+    left: 0;
+    background-color: #d9d9d9;
+  }
+  
+  .frame .text-wrapper-11 {
+    position: absolute;
+    top: 705px;
+    left: 35px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .text-wrapper-12 {
+    position: absolute;
+    top: 833px;
+    left: 102px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .text-wrapper-13 {
+    position: absolute;
+    top: 764px;
+    left: 102px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame .ellipse {
+    top: 837px;
+    background-color: #d9d9d9;
+    border-color: #000000;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1341px;
+    border-radius: 15px;
+    border: 2px solid;
+  }
+  
+  .frame .ellipse-2 {
+    top: 769px;
+    background-color: #000000;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 1341px;
+    border-radius: 15px;
+    border: 2px solid;
+  }
+  
+  .frame .cod-removebg-preview {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 823px;
+    left: 35px;
+    object-fit: cover;
+  }
+  
+  .frame .gopay {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 759px;
+    left: 35px;
+    object-fit: cover;
+  }
+  
+  .frame .text-wrapper-14 {
+    position: absolute;
+    top: 1010px;
+    left: 629px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
